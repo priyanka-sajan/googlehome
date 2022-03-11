@@ -3,7 +3,27 @@ body {
     font-family: arial, sans-serif;
     font-size: 0.9em;
 }
-
+.container{
+    position: relative;
+}
+.fa-magnifying-glass{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 8px;
+    position: absolute;
+}
+.fa-microphone{
+    margin-left: -26px;
+    font-size: 20px;
+    margin-top: 7px;
+    position: absolute;
+}
+input
+{
+    width: 600px;
+    height: 40px;
+    border-radius: 25px;
+}
 a {
     margin: 5px;
     text-decoration: none;
@@ -22,6 +42,15 @@ nav {
     align-items: center;
     padding-left: 20px;
     margin-right: 10px;
+}
+.header-nav span {
+    font-size: 20px;
+    background-color: rgb(194, 25, 143);
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: white;
 }
 
 ul > a , ul > img {
@@ -48,19 +77,8 @@ section {
 
 
 
-.my-input-container{
-    display: flex;
-    justify-content: space-between;
-    width: 600px;
-    height: 38px;
-    border:1px solid gainsboro;
-}
-.my-input-container >  input{
-    flex-grow: 1;
-    border: none;
-    outline: none;
 
-}
+
 img:hover{
     cursor: pointer;
 }
@@ -93,33 +111,6 @@ footer {
     align-items: center;
 
 }
-.material-icons {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;  /* Preferred icon size */
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-  
-    /* Support for all WebKit browsers. */
-    -webkit-font-smoothing: antialiased;
-    /* Support for Safari and Chrome. */
-    text-rendering: optimizeLegibility;
-  
-    /* Support for Firefox. */
-    -moz-osx-font-smoothing: grayscale;
-  
-    /* Support for IE. */
-    font-feature-settings: 'liga';
-  }
-
-
 
 
 
@@ -142,7 +133,5 @@ footer {
         
         justify-content: center;
     }
-    .my-input-container {
-        width:95vw;
-    }
+    
 }
